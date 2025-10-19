@@ -1,0 +1,99 @@
+{
+  "controllers": {
+    "dc-dust-controller-shop": {
+      "branches": {
+        "branch_1": {
+          "local_gates": [
+            "gate1"
+          ],
+          "remote_gates" : [
+            "dc-gate3"
+          ],
+          "sensors": [
+            {
+              "dc-table-saw": {
+                "currentTrigger": 2,
+                "local_gates": [
+                  "gate1",
+                  "gate2"
+                ]
+              }
+            },
+            {
+              "dc-workbench": {
+                "currentTrigger": 2,
+                "local_gates": [
+                  "gate1"
+                ]
+              }
+            },
+            {
+              "dc-cnc": {
+                "currentTrigger": 2,
+                "local_gates": [
+                  "gate1"
+                ]
+              }
+            }
+          ]
+        },
+        "branch_2": {
+          "local_gates": [
+            "gate2"
+          ],
+          "remote_gates": [
+            "dc-gate4"
+          ],
+          "sensors": [
+            {
+              "dc-planer": {
+                "currentTrigger": 2,
+                "local_gates": [
+                  "gate1"
+                ]
+              }
+            },
+            {
+              "dc-drill-press": {
+                "currentTrigger": 2,
+                "local_gates": [
+                  "gate1"
+                ]
+              }
+            },
+            {
+              "dc-lathe": {
+                "currentTrigger": 2,
+                "local_gates": [
+                  "gate1"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+      "dc-dust-controller-110v": {
+        "branches": {
+          "branch_1": {
+            "local_gates": [
+              "gate1"
+            ],
+            "remote_gates": [],
+            "sensors": [
+              {
+                "dc-pottery-studio": {
+                  "currentTrigger": 2,
+                  "local_gates": [
+                    "gate1"
+                  ],
+                  "branch_gates": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    
+  }
+}
