@@ -70,22 +70,22 @@
             ],
             "remote_gates": [],
             "sensors": 
-              {
-                "dc-pottery-studio": {
-                  "currentTrigger": 2,
-                  "local_gates": [
-                    "gate1"
-                  ],
-                  "branch_gates": []
-                },
-                "dc-cnc": {
-                  "currentTrigger": 2,
-                  "local_gates": [
-                    "gate1"
-                  ],
-                  "branch_gates": []
-                }
-              }
+			{
+				"dc-pottery-studio": {
+				  "currentTrigger": 2,
+				  "local_gates": [
+					"gate1"
+				  ],
+				  "branch_gates": []
+				},
+				"dc-cnc": {
+				  "currentTrigger": 2,
+				  "local_gates": [
+					"gate1"
+				  ],
+				  "branch_gates": []
+				}
+			}
           }
         }
       }
