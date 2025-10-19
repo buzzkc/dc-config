@@ -1,6 +1,6 @@
 {
-  "controllers": {
-    "dc-dust-controller-shop": {
+  "collectors": {
+    "dc-dust-collector-shop": {
       "branches": {
         "branch_1": {
           "local_gates": [
@@ -62,7 +62,7 @@
         }
       }
     },
-      "dc-dust-controller-110v": {
+      "dc-dust-collector-110v": {
         "branches": {
           "branch_1": {
             "local_gates": [
