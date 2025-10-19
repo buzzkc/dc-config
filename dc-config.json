@@ -9,33 +9,28 @@
           "remote_gates" : [
             "dc-gate3"
           ],
-          "sensors": [
-            {
+          "sensors": {
               "dc-table-saw": {
                 "currentTrigger": 2,
                 "local_gates": [
                   "gate1",
                   "gate2"
                 ]
-              }
-            },
-            {
+              },
+            
               "dc-workbench": {
                 "currentTrigger": 2,
                 "local_gates": [
                   "gate1"
                 ]
-              }
-            },
-            {
+              },
               "dc-cnc": {
                 "currentTrigger": 2,
                 "local_gates": [
                   "gate1"
                 ]
               }
-            }
-          ]
+        }
         },
         "branch_2": {
           "local_gates": [
@@ -44,32 +39,26 @@
           "remote_gates": [
             "dc-gate4"
           ],
-          "sensors": [
-            {
+          "sensors": {
               "dc-planer": {
                 "currentTrigger": 2,
                 "local_gates": [
                   "gate1"
                 ]
-              }
-            },
-            {
-              "dc-drill-press": {
+              },
+             "dc-drill-press": {
                 "currentTrigger": 2,
                 "local_gates": [
                   "gate1"
                 ]
-              }
-            },
-            {
-              "dc-lathe": {
+              },
+             "dc-lathe": {
                 "currentTrigger": 2,
                 "local_gates": [
                   "gate1"
                 ]
               }
             }
-          ]
         }
       }
     },
@@ -80,7 +69,7 @@
               "gate1"
             ],
             "remote_gates": [],
-            "sensors": [
+            "sensors": 
               {
                 "dc-pottery-studio": {
                   "currentTrigger": 2,
@@ -90,7 +79,6 @@
                   "branch_gates": []
                 }
               }
-            ]
           }
         }
       }
