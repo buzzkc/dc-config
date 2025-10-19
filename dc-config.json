@@ -24,7 +24,7 @@
                   "gate1"
                 ]
               },
-              "dc-cnc": {
+              "dc-cnc1": {
                 "currentTrigger": 2,
                 "local_gates": [
                   "gate1"
@@ -72,6 +72,15 @@
             "sensors": 
               {
                 "dc-pottery-studio": {
+                  "currentTrigger": 2,
+                  "local_gates": [
+                    "gate1"
+                  ],
+                  "branch_gates": []
+                }
+              },
+			  {
+                "dc-cnc": {
                   "currentTrigger": 2,
                   "local_gates": [
                     "gate1"
