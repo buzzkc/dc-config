@@ -79,7 +79,7 @@
 				  "branch_gates": []
 				},
 				"dc-cnc": {
-				  "currentTrigger": 1.5,
+				  "currentTrigger": 2.5,
 				  "local_gates": [
 					"gate1"
 				  ],
