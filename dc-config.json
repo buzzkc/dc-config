@@ -72,14 +72,14 @@
             "sensors": 
 			{
 				"dc-pottery-studio": {
-				  "currentTrigger": 2,
+				  "currentTrigger": 2.0,
 				  "local_gates": [
 					"gate1"
 				  ],
 				  "branch_gates": []
 				},
 				"dc-cnc": {
-				  "currentTrigger": 2.5,
+				  "currentTrigger": 1.8,
 				  "local_gates": [
 					"gate1"
 				  ],
