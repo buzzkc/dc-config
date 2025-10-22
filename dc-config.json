@@ -68,6 +68,7 @@
                         "gate1"
                     ],
                     "remote_gates": [
+						"dc-gate-1"
                     ],
                     "sensors": {
                         "dc-pottery-studio": {
